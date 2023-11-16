@@ -1,0 +1,435 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /
+}
+
+nav {
+    background-color: #007BFF; 
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section Styles */
+.homepage,
+.childhood,
+.education,
+.skills,
+.future,
+.contact,
+.guess-game {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Heading Styles */
+.homepage h1,
+.childhood h1,
+.education h1,
+.skills h1,
+.future h1,
+.future,
+.contact h1,
+.guess-game h2 {
+    color: #007BFF; 
+}
+
+/* Paragraph Styles */
+.homepage p,
+.childhood p,
+.education p,
+.skills p,
+.future p,
+.contact p,
+.guess-game p {
+    line-height: 1.5;
+}
+
+/* styles for homepage */
+.homepage {
+    text-align: center;
+    background-color: #3498db; 
+}
+
+/* styles for childhood */
+.childhood img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}
+
+/* styles for contact */
+.contact a {
+    text-align: center;
+    color: #3498db; 
+}
+
+/* styles for the guess my age game */
+.guess-game {
+    text-align: center;
+    background-color: #27ae60; 
+}
+
+.guess-game button {
+    background-color: #e74c3c; 
+    color: #fff; 
+    border: none;
+}
+
+/* styles for future.html */
+.future {
+    text-align: justify;
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.future p {
+    margin-bottom: 20px;
+}
+
+/* Heading Styles for Future */
+.future h1 {
+    color: #e74c3c; 
+}
+
+/* Responsive styles for future.html */
+@media screen and (max-width: 768px) {
+    .future {
+        padding: 15px; /
+    }
+}
+
+/* styles for future.html JavaScript interaction */
+#redirectToContactBtn {
+    background-color: #e74c3c; 
+    color: #fff; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#redirectToContactBtn:hover {
+    background-color: #c0392b; 
+}
+
+/* styles for the contact table */
+#contactTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#contactTable th, #contactTable td {
+    border: 1px solid #ddd;
+    padding: 12px; 
+    text-align: left;
+}
+
+#contactTable th {
+    background-color: #3498db; 
+    color: #fff; 
+}
+
+/* Styles for the "Add Contact" button */
+#addRowBtn {
+    background-color: #27ae60;
+    color: #fff; 
+    padding: 12px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#addRowBtn:hover {
+    background-color: #219d54; 
+}
+
+/*styles for the contact section */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-info {
+    width: 60%;
+}
+
+/* styles for the personal info in the contact section */
+.personal-info {
+    text-align: center; 
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.personal-info p {
+    margin: 5px 0; 
+    color: #fff; 
+}
+
+/* Styles for the Twitter, Email, and LinkedIn links */
+.personal-info a {
+    color: #3498db; 
+    text-decoration: none;
+}
+
+.personal-info a:hover {
+    text-decoration: underline; 
+}
+
+/*styles for the contact section */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #000; 
+}
+
+/* styles for the contact form */
+#contactForm {
+    max-width: 400px; 
+    margin: 20px auto; 
+}
+
+#contactForm label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+#contactForm input {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#contactForm input[type="submit"] {
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+#contactForm input[type="submit"]:hover {
+    background-color: #2980b9; 
+}
+
+/* styles for future.html */
+.future {
+    text-align: justify;
+    background-color: #e67e22;
+    color: #fff;
+    position: relative; 
+    padding-top: 40px; 
+}
+
+.aspirations-image {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333; 
+    color: #ccc; 
+    padding: 20px; 
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px; 
+}
+
+.tech-logos img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+/* styles for childhood */
+.childhood {
+    background-color: #000; 
+    color: #fff;
+    padding: 20px; 
+}
+/* Skills Section Styles */
+.skills {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #000; 
+}
+
+/* Heading Styles */
+.skills h1,
+.skills h2 {
+    color: #007BFF; 
+}
+
+/* Paragraph Styles */
+.skills p {
+    line-height: 1.5;
+}
+
+/* Programming Languages Table Styles */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Additional Information Styles */
+.skills p {
+    margin-bottom: 20px;
+}
+
+/* Responsive styles for skills.html */
+@media screen and (max-width: 768px) {
+    .skills {
+        padding: 15px;
+    }
+}
+
+/* Additional Information Styles */
+.skills p {
+    margin-bottom: 20px;
+}
+
+/* Responsive styles for skills.html */
+@media screen and (max-width: 768px) {
+    .skills {
+        padding: 15px;
+    }
+}
+
+/* Photos Styles */
+.skill-photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-photo {
+    width: 48%; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.skill-photo img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #333; 
+}
+
+/* Section Styles */
+.education {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.education h1,
+.education-entry h2 {
+    color: #007BFF;
+}
+
+/* Paragraph Styles */
+.education p {
+    line-height: 1.5;
+}
+
+/* Responsive styles for education.html */
+@media screen and (max-width: 768px) {
+    .education {
+        padding: 15px;
+    }
+}
+
+/* styles for homepage */
+.homepage {
+    text-align: center;
+    background-color: #000; 
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* styles for childhood */
+.childhood img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px; 
+}
+
+.homepage {
+    text-align: center;
+    background-color: #3498db;
+}
+
+.homepage-image {
+    width: 48%;
+    max-height: 300px; 
+    display: inline-block;
+    margin: 20px 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+

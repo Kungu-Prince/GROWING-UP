@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+
+    <title>KUNG'U'S BLOG</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="childhood.html">Childhood</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="future.html">Future</a></li>
+            <li><a href="contact.html" rel="noopener">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Content -->
+    <section class="contact">
+        <div class="contact-info">
+            <!-- Your contact information -->
+            <div class="personal-info">
+                <img src="images/html logo.jpeg" alt="Meet Me Photo" class="profile-photo">
+                <p>Twitter: <a href="https://twitter.com/KunguPrince" target="_blank" rel="noopener">@KunguPrince</a></p>
+                <p>Phone: +254712345678</p>
+                <p>Email: <a href="mailto:princekungu8@gmail.com">princekungu8@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/Prince Kungu" target="_blank" rel="noopener">Prince Kungu</a></p>
+            </div>
+            
+            <!-- Table for user input -->
+            <h3> Add your details here</h3>
+            <table id="contactTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be as per required -->
+                </tbody>
+            </table>
+
+            <!-- Button to add a new row -->
+<button id="addRowBtn">Add Contact</button>
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter Name">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Enter Email">
+
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" placeholder="Enter Phone">
+
+    <input type="submit" value="Submit">
+</form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
