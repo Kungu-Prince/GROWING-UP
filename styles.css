@@ -422,6 +422,17 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+nav ul li a[href="login.html"] {
+    background-color: #fff;
+    color: #1DA1F2;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+nav ul li a[href="login.html"]:hover {
+    background-color: #e6e6e6;
+}
+
 
 
 
